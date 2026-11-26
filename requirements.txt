@@ -1,0 +1,11 @@
+streamlit>=1.40          # 1.40+ for in-browser recording (st.audio_input)
+SQLAlchemy>=2.0
+PyMySQL>=1.1             # MySQL driver
+cryptography>=42         # needed by PyMySQL for MySQL 8
+python-dotenv>=1.0
+numpy>=1.26
+pandas>=2.1
+plotly>=5.20
+sentence-transformers>=2.7
+openai-whisper>=20231117 # needs ffmpeg (brew install ffmpeg)
+openai>=1.40             # client for any OpenAI-compatible LLM API
